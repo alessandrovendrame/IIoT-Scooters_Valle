@@ -13,5 +13,9 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CollariniVendrame.IIOT.Server.StorageSQL\CollariniVendrame.IIOT.Server.StorageSQL.csproj" />
+  </ItemGroup>
+
 
 </Project>

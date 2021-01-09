@@ -2522,6 +2522,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "CollariniVendrame.IIOT.Server.StorageSQL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Dapper": "2.0.78",
+          "System.Data.SqlClient": "4.8.2"
+        },
+        "compile": {
+          "bin/placeholder/CollariniVendrame.IIOT.Server.StorageSQL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CollariniVendrame.IIOT.Server.StorageSQL.dll": {}
+        }
       }
     }
   },
@@ -8150,10 +8164,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "CollariniVendrame.IIOT.Server.StorageSQL/1.0.0": {
+      "type": "project",
+      "path": "../CollariniVendrame.IIOT.Server.StorageSQL/CollariniVendrame.IIOT.Server.StorageSQL.csproj",
+      "msbuildProject": "../CollariniVendrame.IIOT.Server.StorageSQL/CollariniVendrame.IIOT.Server.StorageSQL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "CollariniVendrame.IIOT.Server.StorageSQL >= 1.0.0",
       "Dapper >= 2.0.78",
       "Microsoft.Azure.Cosmos.Table >= 1.0.8",
       "Microsoft.Extensions.Configuration.UserSecrets >= 3.1.10",
@@ -8167,11 +8187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marco\\OneDrive\\Desktop\\CollariniVendrame.IIOT.Server\\CollariniVendrame.IIOT.Server.API\\CollariniVendrame.IIOT.Server.API.csproj",
+      "projectUniqueName": "C:\\Users\\marco\\OneDrive\\Desktop\\ITS\\CollariniVendrame\\HttpProtocol\\Http.Server\\ITS.Collarini.Server\\CollariniVendrame.IIOT.Server.API\\CollariniVendrame.IIOT.Server.API.csproj",
       "projectName": "CollariniVendrame.IIOT.Server.API",
-      "projectPath": "C:\\Users\\marco\\OneDrive\\Desktop\\CollariniVendrame.IIOT.Server\\CollariniVendrame.IIOT.Server.API\\CollariniVendrame.IIOT.Server.API.csproj",
+      "projectPath": "C:\\Users\\marco\\OneDrive\\Desktop\\ITS\\CollariniVendrame\\HttpProtocol\\Http.Server\\ITS.Collarini.Server\\CollariniVendrame.IIOT.Server.API\\CollariniVendrame.IIOT.Server.API.csproj",
       "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marco\\OneDrive\\Desktop\\CollariniVendrame.IIOT.Server\\CollariniVendrame.IIOT.Server.API\\obj\\",
+      "outputPath": "C:\\Users\\marco\\OneDrive\\Desktop\\ITS\\CollariniVendrame\\HttpProtocol\\Http.Server\\ITS.Collarini.Server\\CollariniVendrame.IIOT.Server.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8186,7 +8206,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\marco\\OneDrive\\Desktop\\ITS\\CollariniVendrame\\HttpProtocol\\Http.Server\\ITS.Collarini.Server\\CollariniVendrame.IIOT.Server.StorageSQL\\CollariniVendrame.IIOT.Server.StorageSQL.csproj": {
+              "projectPath": "C:\\Users\\marco\\OneDrive\\Desktop\\ITS\\CollariniVendrame\\HttpProtocol\\Http.Server\\ITS.Collarini.Server\\CollariniVendrame.IIOT.Server.StorageSQL\\CollariniVendrame.IIOT.Server.StorageSQL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
