@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CollariniVendrame.IIOT.Server.API.ServiceStorageAzure;
-using CollariniVendrame.IIOT.Server.API.ServiceStorageSQL;
+using CollariniVendrame.IIOT.Server.ServiceStorageSQL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +31,7 @@ namespace CollariniVendrame.IIOT.Server.API
             //Storage Azure
             services.AddSingleton<ServiceStorageAzure.ISensorRepository, ServiceStorageAzure.SensorRepository>();
             services.AddSingleton<ServiceStorageAzure.IScooterRepository, ServiceStorageAzure.ScooterRepository>();
+
             //Storage SQL
             services.AddSingleton<ServiceStorageSQL.IDetectionRepository, ServiceStorageSQL.DetectionRepository>();
             services.AddSingleton<ServiceStorageSQL.ISensorRepository, ServiceStorageSQL.SensorRepository>();
