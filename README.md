@@ -4,18 +4,18 @@
 
 # INDICE
 1. [**Il Progetto**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#il-progetto)
-   1.1. [**Client**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#client)
+   - [**Client**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#client)
    - [**Server**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#server)
- - [**Protocollo HTTP**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#protocollo-http)
+2. [**Protocollo HTTP**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#protocollo-http)
    - [**POST-Rilevazione**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#rilevazione-post-apidetection)
    - [**POST-Monopattino**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#monopattino--post-apiscooter)
    - [**POST-Sensore**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#sensore--post-apisensor)
    - [**Response**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#response)
- - [**Protocollo MQTT**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#protocollo-mqtt)
+3. [**Protocollo MQTT**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#protocollo-mqtt)
    - [**Gestione messaggi da client a server**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestione-messaggi-da-client-a-server)
    - [**Gestione messaggi da server a client**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestione-messaggi-da-server-a-client)
    - [**Test**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#test)
- - [**Il team**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#il-team)
+4. [**Il team**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#il-team)
 
 # Il progetto
 Si sviuppi un'applicativo che permetta lo scambio di dati tra sensori (*client*) e un server. 
