@@ -31,9 +31,9 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 
 # Protocollo HTTP
 
-- ### Rilevazione (`POST /api/detection`)
+### Rilevazione (`POST /api/detection`)
 
-Formato JSON
+**Formato JSON**
 
 | **Nome variabile**      | **Tipo variabile**        |
 |-------------------------|---------------------------|
@@ -44,9 +44,9 @@ Formato JSON
 | SensorDetectionDate     | DateTime                  |
 
 
-- ### Monopattino  (`POST /api/scooter`)
+### Monopattino  (`POST /api/scooter`)
 
-Formato JSON
+**Formato JSON**
 
 | **Nome variabile**      | **Tipo variabile**        |
 |-------------------------|---------------------------|
@@ -55,9 +55,9 @@ Formato JSON
 | Company                 | string                    |
 
 
-- ### Sensore  (`POST /api/sensor`)
+### Sensore  (`POST /api/sensor`)
 
-Formato JSON
+**Formato JSON**
 
 | **Nome variabile**      | **Tipo variabile**        |
 |-------------------------|---------------------------|
@@ -66,9 +66,9 @@ Formato JSON
 | SensorMesurementUnit    | string                    |
 
 
-- ### Response 
+### Response 
 
-Formato JSON
+**Formato JSON**
 
 | **Nome variabile**      | **Tipo variabile**        |
 |-------------------------|---------------------------|
