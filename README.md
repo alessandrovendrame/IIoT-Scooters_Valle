@@ -92,7 +92,7 @@ Utilizzo del broker **test.mosquitto.org**
 
 ### Gestione messaggi da server a client
 - Il server utilizza il publish al topic **scooter/*ScooterId*/*SensorId*/*SensorType***
-- Il client utilizza il subscribe al topic **sensor**/*SensorId*/**status**
+- Il client utilizza il subscribe al topic **sensor/*SensorId*/status**
 
 **BODY Messaggio**
 
