@@ -33,7 +33,7 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 
 ## POST 
 
-- ### Rilevazione ('''diff +/api/detection''')
+- ### Rilevazione (```diff +/api/detection```)
 
 Formato JSON
 
