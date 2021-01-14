@@ -33,7 +33,7 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 
 ## POST 
 
-- ### Rilevazione (/api/detection)
+- ### Rilevazione ('''diff +/api/detection''')
 
 Formato JSON
 
@@ -68,7 +68,15 @@ Formato JSON
 | SensorMesurementUnit    | string                    |
 
 
+- ### Response 
 
+Formato JSON
+
+| **Nome variabile**      | **Tipo variabile**        |
+|-------------------------|---------------------------|
+| SensorId                | int                       |
+| SensorType              | string                    |
+| SensorMesurementUnit    | string                    |
 
 
 
