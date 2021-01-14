@@ -2,7 +2,7 @@
   <img src="/ref/logo.png?raw=true" />
 </p>
 
-# INDICE
+# Indice
 1. [**Il Progetto**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#il-progetto)
    - [**Client**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#client)
    - [**Server**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#server)
