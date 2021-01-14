@@ -96,7 +96,10 @@ Utilizzo del broker **test.mosquitto.org**
 |-------------------------|---------------------------|
 | Status                  | bool                      |
 
-- Client → subscribe su sensor/1/status
+- Client → subscribe su sensor/1/status 
+ 
+ ***NOTE***
+Tramite questa funzionalità è possibile andare a attivare/disattivare un determinato sensore.
 
 # Il team
 
