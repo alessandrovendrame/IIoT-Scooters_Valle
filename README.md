@@ -2,8 +2,8 @@
 
 ### TEAM
 
-- **Collarini** ha sviluppato il software lato server
-- **Vendrame** ha sviluppato il software lato client
+- **Collarini**  *software lato server*
+- **Vendrame** *software lato client*
 
 | Tentativo prima tabella | tentativo seconda colonna |
 |-------------------------|---------------------------|
