@@ -24,11 +24,6 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 - Ricezione ed invio di dati
 - Gestione dati con salvataggio nel database 
 
-# Il team
-
-- **Collarini** → *progettazione e sviluppo software lato **server***
-- **Vendrame** → *progettazione e sviluppo software lato **client***
-
 # Protocollo HTTP
 
 ### Rilevazione (`POST /api/detection`)
@@ -87,6 +82,11 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 - Il client utilizza il subscribe al topic `scooter/ScooterId/SensorId/SensorType`
 
 
+
+# Il team
+
+- **Collarini** → *progettazione e sviluppo software lato **server***
+- **Vendrame** → *progettazione e sviluppo software lato **client***
 
 
 
