@@ -1,6 +1,6 @@
 # Documentazione esercizio noleggio monopattino
 
-### Lavoro svolto da Collarini Marco e Vendrame Alessandro
+### TEAM
 
 - **Collarini** ha sviluppato il software lato server
 - **Vendrame** ha sviluppato il software lato client
