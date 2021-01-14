@@ -1,6 +1,8 @@
 # Documentazione esercizio noleggio monopattino
+### Il progetto
 
-### TEAM
+
+### Il team
 
 - **Collarini**  *software lato server*
 - **Vendrame** *software lato client*
