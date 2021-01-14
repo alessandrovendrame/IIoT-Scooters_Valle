@@ -4,6 +4,7 @@
 
 # Il progetto
 Si sviuppi un'applicativo che permetta lo scambio di dati tra sensori (*client*) e un server. 
+
 Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'utilizzo di diversi protocolli, riusciendo ad adattare il codice nel migliore dei modi. 
 
 ### Client
