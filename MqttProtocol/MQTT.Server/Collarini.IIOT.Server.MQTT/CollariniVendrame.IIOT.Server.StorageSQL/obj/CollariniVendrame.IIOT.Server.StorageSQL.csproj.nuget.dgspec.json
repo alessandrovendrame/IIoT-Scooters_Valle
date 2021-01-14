@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marco\\OneDrive\\Desktop\\CollariniVendrame.IIOT.Server.MQTT\\CollariniVendrame.IIOT.Server.StorageSQL\\CollariniVendrame.IIOT.Server.StorageSQL.csproj": {}
+    "C:\\Users\\marco\\OneDrive\\Desktop\\ITS\\CollariniVendrame\\MqttProtocol\\MQTT.Server\\Collarini.IIOT.Server.MQTT\\CollariniVendrame.IIOT.Server.StorageSQL\\CollariniVendrame.IIOT.Server.StorageSQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marco\\OneDrive\\Desktop\\CollariniVendrame.IIOT.Server.MQTT\\CollariniVendrame.IIOT.Server.StorageSQL\\CollariniVendrame.IIOT.Server.StorageSQL.csproj": {
+    "C:\\Users\\marco\\OneDrive\\Desktop\\ITS\\CollariniVendrame\\MqttProtocol\\MQTT.Server\\Collarini.IIOT.Server.MQTT\\CollariniVendrame.IIOT.Server.StorageSQL\\CollariniVendrame.IIOT.Server.StorageSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marco\\OneDrive\\Desktop\\CollariniVendrame.IIOT.Server.MQTT\\CollariniVendrame.IIOT.Server.StorageSQL\\CollariniVendrame.IIOT.Server.StorageSQL.csproj",
+        "projectUniqueName": "C:\\Users\\marco\\OneDrive\\Desktop\\ITS\\CollariniVendrame\\MqttProtocol\\MQTT.Server\\Collarini.IIOT.Server.MQTT\\CollariniVendrame.IIOT.Server.StorageSQL\\CollariniVendrame.IIOT.Server.StorageSQL.csproj",
         "projectName": "CollariniVendrame.IIOT.Server.StorageSQL",
-        "projectPath": "C:\\Users\\marco\\OneDrive\\Desktop\\CollariniVendrame.IIOT.Server.MQTT\\CollariniVendrame.IIOT.Server.StorageSQL\\CollariniVendrame.IIOT.Server.StorageSQL.csproj",
+        "projectPath": "C:\\Users\\marco\\OneDrive\\Desktop\\ITS\\CollariniVendrame\\MqttProtocol\\MQTT.Server\\Collarini.IIOT.Server.MQTT\\CollariniVendrame.IIOT.Server.StorageSQL\\CollariniVendrame.IIOT.Server.StorageSQL.csproj",
         "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marco\\OneDrive\\Desktop\\CollariniVendrame.IIOT.Server.MQTT\\CollariniVendrame.IIOT.Server.StorageSQL\\obj\\",
+        "outputPath": "C:\\Users\\marco\\OneDrive\\Desktop\\ITS\\CollariniVendrame\\MqttProtocol\\MQTT.Server\\Collarini.IIOT.Server.MQTT\\CollariniVendrame.IIOT.Server.StorageSQL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
