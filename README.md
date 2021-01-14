@@ -83,12 +83,16 @@ Utilizzo del broker **test.mosquitto.org**
 - Il server utilizza il subscribe al topic **scooter/#**
 - Il client utilizza il publish al topic **scooter/*ScooterId*/*SensorId*/*SensorType***
 
+**BODY Messaggio**
+
+| **Nome variabile**      | **Tipo variabile**        |
+|-------------------------|---------------------------|
+| SensorValue             | string                    |
+| SensorDetectionDate     | DateTime                  | 
+
 ### Gestione messaggi da server a client
 - Il server utilizza il publish al topic **scooter/*ScooterId*/*SensorId*/*SensorType***
 - Il client utilizza il subscribe al topic **sensor/*SensorId*/**status**
-
-**TEST**
-- Server → publish su topic (**sensor/1/status**) 
 
 **BODY Messaggio**
 
@@ -96,6 +100,8 @@ Utilizzo del broker **test.mosquitto.org**
 |-------------------------|---------------------------|
 | Status                  | bool                      |
 
+**TEST**
+- Server → publish su topic (**sensor/1/status**) 
 - Client → subscribe su sensor/1/status 
  
  ***NOTE***
