@@ -4,7 +4,7 @@
 
 # INDICE
 
- - [Il Progetto](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#il-progetto)
+ - [**Il Progetto**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#il-progetto)
 
 # Il progetto
 Si sviuppi un'applicativo che permetta lo scambio di dati tra sensori (*client*) e un server. 
