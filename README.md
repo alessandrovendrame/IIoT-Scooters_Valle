@@ -73,6 +73,8 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 
 # Protocollo MQTT
 
+Utilizzo del broker **Mosquitto**
+
 ### Gestione messaggi da client a server
 - Il server utilizza il subscribe al topic `scooter/#`
 - Il client utilizza il publish al topic `scooter/ScooterId/SensorId/SensorType`
