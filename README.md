@@ -21,7 +21,7 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 - Invio delle rilevazioni al server
 
 ### Server
-- Ricezione dati
+- Ricezione ed invio di dati
 - Gestione dati con salvataggio nel database 
 
 # Il team
