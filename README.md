@@ -3,7 +3,7 @@
 ### Lavoro svolto da Collarini Marco e Vendrame Alessandro
 
 - **Collarini** ha sviluppato il software lato server
-- **Vendrame** ha sviluppato il software lato client.
+- **Vendrame** ha sviluppato il software lato client
 
 | Tentativo prima tabella | tentativo seconda colonna |
 |-------------------------|---------------------------|
