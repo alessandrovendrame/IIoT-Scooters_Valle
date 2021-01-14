@@ -1,8 +1,11 @@
+<p align="center">
+  <img src="/ref/logo.png?raw=true" />
+</p>
 # Documentazione esercizio noleggio monopattino
-### Il progetto
+## Il progetto
 
 
-### Il team
+## Il team
 
 - **Collarini**  *software lato server*
 - **Vendrame** *software lato client*
