@@ -76,6 +76,24 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 | Message                 | string                    |
 
 
+# Protocollo MQTT
+
+### Gestione messaggi da client a server
+- Il server utilizza il subscribe al topic `scooter/#`
+- Il client utilizza il publish al topic `scooter/ScooterId/SensorId/SensorType`
+
+### Gestione messaggi da server a client
+- Il server utilizza il publish al topic `scooter/ScooterId/SensorId/SensorType`
+- Il client utilizza il subscribe al topic `scooter/ScooterId/SensorId/SensorType`
+
+
+
+
+
+
+
+
+
 
 
 
