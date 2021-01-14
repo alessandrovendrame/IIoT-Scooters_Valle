@@ -1,6 +1,7 @@
-Repository contenente esercizio dato da fare durante le vacanze.
+# Documentazione esercizio noleggio monopattino
 
-Il progetto consiste nel creare un client che simula dei sensori in un monopattino che inviano i dati ad un server.
-Questo esercizio andrà a sviluppare lo stesso progetto ma con diversi protocolli di comunicazione.
+### Lavoro svolto da Collarini Marco e Vendrame Alessandro
 
-GRUPPO : Collarini Marco, Vendrame Alessandro
+| Tentativo prima tabella | tentativo seconda colonna |
+|-------------------------|---------------------------|
+| Ciao sono la prima riga | Ciao sono la seconda colonna|
