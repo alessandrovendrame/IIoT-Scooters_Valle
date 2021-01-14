@@ -1,7 +1,7 @@
 <p align="center">
   <img src="/ref/logo.png?raw=true" />
 </p>
-# Documentazione esercizio noleggio monopattino
+
 ## Il progetto
 
 
