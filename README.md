@@ -33,8 +33,43 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 
 ## POST 
 
-- ### Rilevazione 
+- ### Rilevazione (/api/detection)
 
-| Tentativo prima tabella | tentativo seconda colonna |
+Formato JSON
+
+| **Nome variabile**      | **Tipo variabile**        |
 |-------------------------|---------------------------|
+| SensorId                | int                       |
+| ScooterId               | int                       |
+| SensorValue             | string                    |
+| SensorType              | string                    |
+| SensorDetectionDate     | DateTime                  |
+
+
+- ### Monopattino  (/api/scooter)
+
+Formato JSON
+
+| **Nome variabile**      | **Tipo variabile**        |
+|-------------------------|---------------------------|
+| ScooterId               | int                       |
+| Brand                   | string                    |
+| Company                 | string                    |
+
+
+- ### Sensore  (/api/sensor)
+
+Formato JSON
+
+| **Nome variabile**      | **Tipo variabile**        |
+|-------------------------|---------------------------|
+| SensorId                | int                       |
+| SensorType              | string                    |
+| SensorMesurementUnit    | string                    |
+
+
+
+
+
+
 
