@@ -76,7 +76,7 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 # Protocollo MQTT
 
 <p align="center">
-  <img src="/ref/mqttSchema.png?raw=true" />
+  <img src="/ref/mqttSchema.PNG?raw=true" />
 </p>
 
 Utilizzo del broker **test.mosquitto.org**
