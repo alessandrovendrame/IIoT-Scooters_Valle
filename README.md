@@ -6,6 +6,15 @@
 
  - [**Il Progetto**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#il-progetto)
    - [**Client**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#client)
+   - [**Server**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#server)
+ - [**Protocollo HTTP**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#protocollo-http)
+   - [**POST-Rilevazione**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#rilevazione-post-apidetection)
+   - [**POST-Monopattino**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#monopattino--post-apiscooter)
+   - [**POST-Sensore**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#sensore--post-apisensor)
+   - [**Response**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#response)
+ - [**Protocollo MQTT**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#protocollo-mqtt)
+   - [**Gestione messaggi da client a server**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestion-messaggi-da-client-a-server)
+   - [**Gestione messaggi da server a client**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestion-messaggi-da-server-a-client)
 
 # Il progetto
 Si sviuppi un'applicativo che permetta lo scambio di dati tra sensori (*client*) e un server. 
