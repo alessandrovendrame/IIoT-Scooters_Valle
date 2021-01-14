@@ -3,8 +3,8 @@
 </p>
 
 # Il progetto
-Si sviuppi un'applicativo che permetta lo scambio di dati da sensori (*client*) ad un server. 
-Per stabilire la connessione tra i due si richiede di utilizzare diversi protocolli, riusciendo ad adattare il codice nel miogliore dei modi. 
+Si sviuppi un'applicativo che permetta lo scambio di dati tra sensori (*client*) e un server. 
+Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'utilizzo di diversi protocolli, riusciendo ad adattare il codice nel migliore dei modi. 
 
 ### Client
 - Creazione sensori virtuali
