@@ -3,9 +3,8 @@
 </p>
 
 # INDICE
-
- - [**Il Progetto**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#il-progetto)
-   - [**Client**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#client)
+1. [**Il Progetto**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#il-progetto)
+   1.1. [**Client**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#client)
    - [**Server**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#server)
  - [**Protocollo HTTP**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#protocollo-http)
    - [**POST-Rilevazione**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#rilevazione-post-apidetection)
