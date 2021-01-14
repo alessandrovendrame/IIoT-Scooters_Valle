@@ -1,7 +1,7 @@
 <p align="center">
   <img src="/ref/logo.png?raw=true" />
 </p>
-
+ciao
 # Il progetto
 Si sviuppi un'applicativo che permetta lo scambio di dati tra sensori (*client*) e un server. 
 
