@@ -104,9 +104,9 @@ Utilizzo del broker **test.mosquitto.org**
 - Server → publish su topic **sensor/1/status**
 - Client → subscribe su topic **sensor/1/status**
  
-   ***NOTE***
+  ***NOTE***
  
-Tramite questa funzionalità è possibile andare ad attivare/disattivare un determinato sensore.
+  Tramite questa funzionalità è possibile andare ad attivare/disattivare un determinato sensore.
 
 # Il team
 
