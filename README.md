@@ -7,6 +7,10 @@ Si sviuppi un'applicativo che permetta lo scambio di dati tra sensori (*client*)
 
 Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'utilizzo di diversi protocolli, riusciendo ad adattare il codice nel migliore dei modi. 
 
+<p align="center">
+  <img src="/ref/work_toDo.png?raw=true" />
+</p>
+
 ### Client
 - Creazione sensori virtuali
   - Sensore di batteria
@@ -25,6 +29,12 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 - **Collarini**  *progettazione e sviluppo software lato server*
 - **Vendrame** *progettazione e sviluppo software lato client*
 
+# Protocollo HTTP
+
+## POST 
+
+- ### Rilevazione 
+
 | Tentativo prima tabella | tentativo seconda colonna |
 |-------------------------|---------------------------|
-| Ciao sono la prima riga | Ciao sono la seconda colonna|
+
