@@ -26,8 +26,8 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 
 # Il team
 
-- **Collarini**  *progettazione e sviluppo software lato server*
-- **Vendrame** *progettazione e sviluppo software lato client*
+- **Collarini** → *progettazione e sviluppo software lato **server***
+- **Vendrame** → *progettazione e sviluppo software lato **client***
 
 # Protocollo HTTP
 
