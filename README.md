@@ -22,8 +22,8 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 
 # Il team
 
-- **Collarini**  *software lato server*
-- **Vendrame** *software lato client*
+- **Collarini**  *progettazione e sviluppo software lato server*
+- **Vendrame** *progettazione e sviluppo software lato client*
 
 | Tentativo prima tabella | tentativo seconda colonna |
 |-------------------------|---------------------------|
