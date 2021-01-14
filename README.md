@@ -62,7 +62,6 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 
 
 ### Response 
-
 **Formato JSON**
 
 | **Nome variabile**      | **Tipo variabile**        |
@@ -100,12 +99,12 @@ Utilizzo del broker **test.mosquitto.org**
 |-------------------------|---------------------------|
 | Status                  | bool                      |
 
-**TEST**
+## **TEST**
 
 - Server → publish su topic **sensor/1/status**
 - Client → subscribe su topic **sensor/1/status**
  
- ***NOTE***
+   ***NOTE***
  
 Tramite questa funzionalità è possibile andare ad attivare/disattivare un determinato sensore.
 
