@@ -80,14 +80,23 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 Utilizzo del broker **test.mosquitto.org**
 
 ### Gestione messaggi da client a server
-- Il server utilizza il subscribe al topic `scooter/#`
-- Il client utilizza il publish al topic `scooter/ScooterId/SensorId/SensorType`
+- Il server utilizza il subscribe al topic **scooter/#**
+- Il client utilizza il publish al topic **scooter/*ScooterId*/*SensorId*/*SensorType***
 
 ### Gestione messaggi da server a client
-- Il server utilizza il publish al topic `scooter/ScooterId/SensorId/SensorType`
-- Il client utilizza il subscribe al topic `scooter/ScooterId/SensorId/SensorType`
+- Il server utilizza il publish al topic **scooter/*ScooterId*/*SensorId*/*SensorType***
+- Il client utilizza il subscribe al topic **sensor/*SensorId*/**status**
 
+**TEST**
+- Server → publish su topic (**sensor/1/status**) 
 
+**BODY Messaggio**
+
+| **Nome variabile**      | **Tipo variabile**        |
+|-------------------------|---------------------------|
+| Status                  | bool                      |
+
+- Client → subscribe su sensor/1/status
 
 # Il team
 
