@@ -21,9 +21,11 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 - Gestione dati con salvataggio nel database 
 
 # Protocollo HTTP
+
 <p align="center">
   <img src="/ref/httpSchema.png?raw=true" />
 </p>
+
 ### Rilevazione (`POST /api/detection`)
 
 **Formato JSON**
