@@ -91,8 +91,8 @@ Utilizzo del broker **test.mosquitto.org**
 
 # Il team
 
-- **Collarini** → *progettazione e sviluppo software lato **server***
-- **Vendrame** → *progettazione e sviluppo software lato **client***
+- [**Marco Collarini**](https://github.com/MarcoCollarini) → *progettazione e sviluppo software lato **server***
+- [**Alessandro Vendrame**](https://github.com/alessandrovendrame) → *progettazione e sviluppo software lato **client***
 
 
 
