@@ -13,8 +13,10 @@
    - [**POST-Sensore**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#sensore--post-apisensor)
    - [**Response**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#response)
  - [**Protocollo MQTT**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#protocollo-mqtt)
-   - [**Gestione messaggi da client a server**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestion-messaggi-da-client-a-server)
-   - [**Gestione messaggi da server a client**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestion-messaggi-da-server-a-client)
+   - [**Gestione messaggi da client a server**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestione-messaggi-da-client-a-server)
+   - [**Gestione messaggi da server a client**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestione-messaggi-da-server-a-client)
+   - [**Test**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#test)
+ - [**Il team**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#il-team)
 
 # Il progetto
 Si sviuppi un'applicativo che permetta lo scambio di dati tra sensori (*client*) e un server. 
