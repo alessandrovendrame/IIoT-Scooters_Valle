@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CollariniVendrame.IIOT.Server.API\CollariniVendrame.IIOT.Server.API.csproj" />
     <ProjectReference Include="..\CollariniVendrame.IIOT.Server.StorageSQL\CollariniVendrame.IIOT.Server.StorageSQL.csproj" />
   </ItemGroup>
 </Project>
