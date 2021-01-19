@@ -40,7 +40,7 @@ namespace CollariniVendrame.IIOT.Server.MQTT.Worker
             client.ProtocolVersion = MqttProtocolVersion.Version_3_1;
             client.MqttMsgSubscribed += Client_MqttMsgSubscribed;
             client.MqttMsgPublishReceived += Client_MqttMsgPublishReceived;
-
+           
             ushort subcribe = client.Subscribe(new string[] { topicDetection },
             new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
 
