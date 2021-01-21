@@ -93,18 +93,6 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
   <img src="/ref/mqttSchema.PNG?raw=true" />
 </p>
 
-> Funzionamento del protocollo
-
-Il protocollo MQTT, per scambiare informazioni, sfrutta un meccanismo di pubblicazione e sottoscrizione (pubblish-subscrive) di messaggi tramite un apposito message broker, in grado di gestire migliaia di client contemporaneamente.
-
-Si tratta di un’ottima alternativa al modello client/server dove ad instaurare una connessione diretta con il server è il client .
-
-In MQTT, se un determinato client vuole comunicare con un altro, pubblica un messaggio su un certo argomento (detto topic) sul message broker.
-
-Il message broker ha il compito di filtrare e distribuire le comunicazioni tra pubblisher e subscriver.
-
-Ogni client può iscriversi a molteplici topics e ogni volta che viene pubblicato un nuovo messaggio in un determinato topic, il message broker lo distribuisce a tutti i client iscritti a quel determinato topic.
-
 ### Gestione messaggi da client a server
 - Il server utilizza il subscribe al topic **scooter/#**
 - Il client utilizza il publish al topic **scooter/*ScooterId*/*SensorId*/*SensorType***
@@ -141,7 +129,25 @@ Ogni client può iscriversi a molteplici topics e ogni volta che viene pubblicat
   <img src="/ref/amqpSchema.PNG?raw=true" />
 </p>
 
+### Gestione messaggi da client a server
+- Ogni sensore invia i dati ad una coda `Redis` accessibile a tutti i sensori presenti nel monopattino
+- Un ulteriore processo (*producer*) va a controllare se nella coda sono presenti messaggi
+  - Nel caso in cui ci siano dei messaggi nella coda viene stabilita una connessione al broker AMQP e vengono inviati i dati all'exchanger
+- L'exchanger, impostato in modo da filtrare i messaggi e attraverso la `routeKey`, inserisce il messaggio in una determinata coda
+- Il server (*consumer*) va a leggere i dati da una determinata coda, salvandoli successivamente nel DB
 
+**BODY Messaggio**
+
+| **Nome variabile**      | **Tipo variabile**        |
+|-------------------------|---------------------------|
+| SensorId                | int                       |
+| ScooterId               | int                       |
+| SensorValue             | string                    |
+| SensorType              | string                    |
+| SensorDetectionDate     | DateTime                  |
+
+Sono state create **4 code**:
+- *Battery_Sensor* → coda che contiene tutte le rilevazioni del sensore de
 
 # Il team
 
