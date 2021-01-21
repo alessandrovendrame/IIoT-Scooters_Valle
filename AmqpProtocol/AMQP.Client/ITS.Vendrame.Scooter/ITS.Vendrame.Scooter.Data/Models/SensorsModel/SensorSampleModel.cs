@@ -9,6 +9,7 @@ namespace ITS.Vendrame.Scooter.Data.Models.SensorsModel
         public int ScooterId { get; set; }
         public int SensorId { get; set; }
         public string SensorType { get; set; }
+        public string SensorValue { get; set; }
         public DateTime SensorDetectionDate { get; set; }
     }
 }

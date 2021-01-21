@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.DataSender\\ITS.Vendrame.Scooter.DataSender.csproj": {}
+    "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.DataSender\\ITS.Vendrame.Scooter.DataSender.csproj": {}
   },
   "projects": {
-    "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.DataSender\\ITS.Vendrame.Scooter.DataSender.csproj": {
+    "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.DataSender\\ITS.Vendrame.Scooter.DataSender.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.DataSender\\ITS.Vendrame.Scooter.DataSender.csproj",
+        "projectUniqueName": "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.DataSender\\ITS.Vendrame.Scooter.DataSender.csproj",
         "projectName": "ITS.Vendrame.Scooter.DataSender",
-        "projectPath": "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.DataSender\\ITS.Vendrame.Scooter.DataSender.csproj",
+        "projectPath": "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.DataSender\\ITS.Vendrame.Scooter.DataSender.csproj",
         "packagesPath": "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\",
-        "outputPath": "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.DataSender\\obj\\",
+        "outputPath": "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.DataSender\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alessandro Vendrame\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj": {
-                "projectPath": "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj"
+              "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj": {
+                "projectPath": "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj"
               },
-              "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.QueueLibrary\\ITS.Vendrame.Scooter.QueueLibrary.csproj": {
-                "projectPath": "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.QueueLibrary\\ITS.Vendrame.Scooter.QueueLibrary.csproj"
+              "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.QueueLibrary\\ITS.Vendrame.Scooter.QueueLibrary.csproj": {
+                "projectPath": "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.QueueLibrary\\ITS.Vendrame.Scooter.QueueLibrary.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj": {
+    "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj",
+        "projectUniqueName": "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj",
         "projectName": "ITS.Vendrame.Scooter.Data",
-        "projectPath": "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj",
+        "projectPath": "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj",
         "packagesPath": "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\",
-        "outputPath": "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\obj\\",
+        "outputPath": "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alessandro Vendrame\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -110,6 +110,10 @@
             "M2Mqtt": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
             }
           },
           "imports": [
@@ -131,14 +135,14 @@
         }
       }
     },
-    "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.QueueLibrary\\ITS.Vendrame.Scooter.QueueLibrary.csproj": {
+    "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.QueueLibrary\\ITS.Vendrame.Scooter.QueueLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.QueueLibrary\\ITS.Vendrame.Scooter.QueueLibrary.csproj",
+        "projectUniqueName": "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.QueueLibrary\\ITS.Vendrame.Scooter.QueueLibrary.csproj",
         "projectName": "ITS.Vendrame.Scooter.QueueLibrary",
-        "projectPath": "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.QueueLibrary\\ITS.Vendrame.Scooter.QueueLibrary.csproj",
+        "projectPath": "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.QueueLibrary\\ITS.Vendrame.Scooter.QueueLibrary.csproj",
         "packagesPath": "C:\\Users\\Alessandro Vendrame\\.nuget\\packages\\",
-        "outputPath": "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.QueueLibrary\\obj\\",
+        "outputPath": "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.QueueLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alessandro Vendrame\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,8 +158,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj": {
-                "projectPath": "C:\\IIoT-Scooters_Valle\\MqttProtocol\\MQTT.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj"
+              "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj": {
+                "projectPath": "C:\\IIoT-Scooters_Valle\\AmqpProtocol\\AMQP.Client\\ITS.Vendrame.Scooter\\ITS.Vendrame.Scooter.Data\\ITS.Vendrame.Scooter.Data.csproj"
               }
             }
           }

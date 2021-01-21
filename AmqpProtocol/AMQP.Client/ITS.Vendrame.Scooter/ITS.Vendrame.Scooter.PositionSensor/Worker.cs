@@ -31,33 +31,22 @@ namespace ITS.Vendrame.Scooter.PositionSensor
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            JsonSensorModel sensorModel = new JsonSensorModel();
-            MqttClientModel mqttClientModel = new MqttClientModel();
-            PositionSensorModel sensore = new PositionSensorModel();
+            SensorSampleModel sensore = new SensorSampleModel();
             sensore.SensorType = "Position_Sensor";
             sensore.ScooterId = 1;
-            sensore.SensorId = 3; 
-            string topic = "scooter/" + sensore.ScooterId + "/" + sensore.SensorId + "/" + sensore.SensorType;
+            sensore.SensorId = 3;
 
             while (!stoppingToken.IsCancellationRequested)
             {
                 var info = virtualPositionSensor.toJson();
-                sensorModel.SensorValue = info.ToString();
-                sensorModel.SensorDetectionDate = DateTime.Now;
+                sensore.SensorValue = info.ToString();
+                sensore.SensorDetectionDate = DateTime.Now;
 
-                var json = JsonSerializer.Serialize(sensorModel);
-                Console.WriteLine("Json file sent: " + json);
+                _queueController.InsertIntoList(sensore);
 
-                MqttJsonSensorModel sensorData = new MqttJsonSensorModel
-                {
-                    Topic = topic,
-                    SensorValue = sensorModel.SensorValue,
-                    SensorDetectionDate = sensorModel.SensorDetectionDate
-                };
+                Console.WriteLine("Added " + JsonSerializer.Serialize(sensore) + " to queue.");
 
-                _queueController.InsertIntoList(sensorData);
-
-                await Task.Delay(30000, stoppingToken);
+                await Task.Delay(15000, stoppingToken);
             }
         }
     }

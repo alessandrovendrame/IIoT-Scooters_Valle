@@ -9,7 +9,7 @@ namespace ITS.Vendrame.Scooter.QueueLibrary.QueueController
 {
     public class QueueController
     {
-        MqttClientModel mqttClientModel = new MqttClientModel();
+        AmqpClientModel amqpClientModel;
         readonly ConnectionMultiplexer muxer = ConnectionMultiplexer.Connect("127.0.0.1 , abortConnect=false");
         IDatabase conn;
         readonly RedisKey redisKey = new RedisKey("messages");
@@ -31,7 +31,7 @@ namespace ITS.Vendrame.Scooter.QueueLibrary.QueueController
             }
         }
 
-        public void InsertIntoList(MqttJsonSensorModel jsonSensorModel)
+        public void InsertIntoList(SensorSampleModel jsonSensorModel)
         {
             // queue.Push(jsonSensorModel);
             RedisValue redisValue = new RedisValue(JsonSerializer.Serialize(jsonSensorModel));
@@ -40,24 +40,19 @@ namespace ITS.Vendrame.Scooter.QueueLibrary.QueueController
 
         public void SendData()
         {
+            if (amqpClientModel == null)
+            {
+                amqpClientModel = new AmqpClientModel();
+            }
+            
             //ar message = queue.Pop();
             while(conn.ListLength(redisKey) > 0)
             {
                 var data = conn.ListRightPop(redisKey).ToString();
 
-                var mqttJson = JsonSerializer.Deserialize<MqttJsonSensorModel>(data);
+                amqpClientModel.PublishMessage(data);
 
-                JsonSensorModel json = new JsonSensorModel
-                {
-                    SensorValue = mqttJson.SensorValue,
-                    SensorDetectionDate = mqttJson.SensorDetectionDate
-                };
-
-                var dataSent = JsonSerializer.Serialize(json);
-
-                Console.WriteLine("Sent to " + mqttJson.Topic + ": \n " + dataSent);
-
-                mqttClientModel.SendMsgAsync(mqttJson.Topic, dataSent);
+                Console.WriteLine("Sent: " + data);
             }
             
         }
