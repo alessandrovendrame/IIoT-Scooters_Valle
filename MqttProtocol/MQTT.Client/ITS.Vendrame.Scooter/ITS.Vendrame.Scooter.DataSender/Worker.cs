@@ -25,10 +25,18 @@ namespace ITS.Vendrame.Scooter.DataSender
 
             while (!stoppingToken.IsCancellationRequested)
             {
-                _queueController.CheckIfDataIsPresent();
+                try
+                {
+                    _queueController.CheckIfDataIsPresent();
+                }catch(Exception e)
+                {
+                    _logger.LogError("No Internet connection, client will send data as soon as possible.");
+                }
+                
                 Thread.Sleep(30000);
                 
             }
         }
     }
 }
+
