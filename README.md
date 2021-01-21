@@ -15,7 +15,9 @@
    - [**Gestione messaggi da client a server**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestione-messaggi-da-client-a-server)
    - [**Gestione messaggi da server a client**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestione-messaggi-da-server-a-client)
    - [**Test**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#test)
-4. [**Il team**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#il-team)
+4. [**Protocollo AMQP**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#protocollo-mqtt)
+   - [**Gestione messaggi da client a server**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestione-messaggi-da-client-a-server)
+5. [**Il team**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#il-team)
 
 # Il progetto
 Si sviuppi un'applicativo che permetta lo scambio di dati tra sensori (*client*) e un server. 
@@ -122,6 +124,14 @@ Utilizzo del broker **test.mosquitto.org**
  ***NOTE:***
  
   Tramite questa funzionalità è possibile andare ad attivare/disattivare un determinato sensore.
+
+# Protocollo AMQP
+
+<p align="center">
+  <img src="/ref/amqpSchema.PNG?raw=true" />
+</p>
+
+
 
 # Il team
 
