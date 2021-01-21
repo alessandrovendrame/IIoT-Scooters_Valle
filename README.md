@@ -93,7 +93,7 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
   <img src="/ref/mqttSchema.PNG?raw=true" />
 </p>
 
-Utilizzo del broker **test.mosquitto.org**
+> Utilizzo del broker **test.mosquitto.org**
 
 ### Gestione messaggi da client a server
 - Il server utilizza il subscribe al topic **scooter/#**
