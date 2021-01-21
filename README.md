@@ -93,7 +93,17 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
   <img src="/ref/mqttSchema.PNG?raw=true" />
 </p>
 
-> Utilizzo del broker **test.mosquitto.org**
+> Funzionamento del protocollo
+
+Il protocollo MQTT, per scambiare informazioni, sfrutta un meccanismo di pubblicazione e sottoscrizione (pubblish-subscrive) di messaggi tramite un apposito message broker, in grado di gestire migliaia di client contemporaneamente.
+
+Si tratta di un’ottima alternativa al modello client/server dove ad instaurare una connessione diretta con il server è il client .
+
+In MQTT, se un determinato client vuole comunicare con un altro, pubblica un messaggio su un certo argomento (detto topic) sul message broker.
+
+Il message broker ha il compito di filtrare e distribuire le comunicazioni tra pubblisher e subscriver.
+
+Ogni client può iscriversi a molteplici topics e ogni volta che viene pubblicato un nuovo messaggio in un determinato topic, il message broker lo distribuisce a tutti i client iscritti a quel determinato topic.
 
 ### Gestione messaggi da client a server
 - Il server utilizza il subscribe al topic **scooter/#**
