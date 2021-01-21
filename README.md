@@ -15,8 +15,8 @@
    - [**Gestione messaggi da client a server**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestione-messaggi-da-client-a-server)
    - [**Gestione messaggi da server a client**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestione-messaggi-da-server-a-client)
    - [**Test**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#test)
-4. [**Protocollo AMQP**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#protocollo-mqtt)
-   - [**Gestione messaggi da client a server**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestione-messaggi-da-client-a-server)
+4. [**Protocollo AMQP**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#protocollo-amqp)
+   - [**Gestione messaggi da client a server**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#gestione-messaggi-da-client-a-server-1)
 5. [**Il team**](https://github.com/alessandrovendrame/IIoT-Scooters_Valle#il-team)
 
 # Il progetto
