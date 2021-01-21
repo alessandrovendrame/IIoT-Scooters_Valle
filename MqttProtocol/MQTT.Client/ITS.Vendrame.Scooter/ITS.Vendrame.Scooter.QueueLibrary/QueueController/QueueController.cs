@@ -19,6 +19,7 @@ namespace ITS.Vendrame.Scooter.QueueLibrary.QueueController
             conn = muxer.GetDatabase();
         }
 
+
         public void CheckIfDataIsPresent()
         {
            var len = conn.ListLength(redisKey);

@@ -18,7 +18,7 @@ namespace ITS.Vendrame.Scooter.BatterySensor
     {
         private readonly ILogger<Worker> _logger;
         private readonly IConfiguration _configuration;
-        private readonly QueueController _queueController;
+        private QueueController _queueController;
         private VirtualBatterySensor virtualBatterySensor = new VirtualBatterySensor();
         private MqttClientListener mqttClientListener = new MqttClientListener("sensor/1/status");
 
@@ -36,6 +36,7 @@ namespace ITS.Vendrame.Scooter.BatterySensor
             sensore.SensorType = "Battery_Sensor";
             sensore.ScooterId = 1;
             sensore.SensorId = 1;
+            
             string topic = "scooter/" + sensore.ScooterId + "/" + sensore.SensorId + "/" + sensore.SensorType;
 
             while (!stoppingToken.IsCancellationRequested)

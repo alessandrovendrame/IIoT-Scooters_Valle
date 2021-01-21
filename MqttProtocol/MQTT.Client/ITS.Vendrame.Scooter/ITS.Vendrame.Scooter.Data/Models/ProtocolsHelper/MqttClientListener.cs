@@ -11,7 +11,7 @@ namespace ITS.Vendrame.Scooter.Data.Models.ProtocolsHelper
     public class MqttClientListener
     {
         private MqttClient client;
-        private string brokerAddress = "192.168.104.60";
+        private string brokerAddress = "192.168.43.251";
         private bool status = false;
         
         public MqttClientListener(string topic)
