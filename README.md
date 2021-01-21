@@ -133,7 +133,7 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 - Ogni sensore invia i dati ad una coda `Redis` accessibile a tutti i sensori presenti nel monopattino
 - Un ulteriore processo (*producer*) va a controllare se nella coda sono presenti messaggi
   - Nel caso in cui ci siano dei messaggi nella coda viene stabilita una connessione al broker AMQP e vengono inviati i dati all'exchanger
-- L'exchanger, impostato in modo da filtrare i messaggi e attraverso la `routeKey`, inserisce il messaggio in una determinata coda
+- L'exchanger, impostato in modo da filtrare i messaggi attraverso la `routeKey`, inserisce il messaggio in una determinata coda
 - Il server (*consumer*) va a leggere i dati da una determinata coda, salvandoli successivamente nel DB
 
 **BODY Messaggio**
@@ -147,7 +147,12 @@ Si richiede inoltre, che la comunicazione tra i dispositivi, avvenga tramite l'u
 | SensorDetectionDate     | DateTime                  |
 
 Sono state create **4 code**:
-- *Battery_Sensor* → coda che contiene tutte le rilevazioni del sensore de
+- *Battery_Sensor* → coda che contiene tutte le rilevazioni del sensore della batteria
+- *Speed_Sensor* → coda che contiene tutte le rilevazioni del sensore della velocità
+- *Movement_Sensor* → coda che contiene tutte le rilevazioni del sensore del movimento
+- *Position_Sensor* → coda che contiene tutte le rilevazioni del sensore di posizione
+
+> NB: Questa soluzione è stata implementata solo per testare le funzionalità dell'exchanger
 
 # Il team
 
